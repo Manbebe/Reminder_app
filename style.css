@@ -27,13 +27,40 @@
     border: none;
     border-radius: 30px;
     position: absolute;
-  top: 50%;
-  left: 50%;
+    top: 50%;
+    left: 50%;
   transform: translate(-50%, -50%);
 }
 
 input{
+    display: flex;
     height: 200px;
     width: 260px;
     color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+}
+
+button{
+    color: black;
+}
+
+.button-container{
+    display:flex;
+    height: 100px;
+    width: 250px;
+    flex-direction: row;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftbutton{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
 }
