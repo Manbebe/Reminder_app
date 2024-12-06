@@ -1,6 +1,5 @@
 *{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
 }
 
 
@@ -13,6 +12,7 @@
 .title{
     background-color: #ae0c00;
     width: 300px;
+    color: white;
 }
 
 
@@ -32,16 +32,18 @@
   transform: translate(-50%, -50%);
 }
 
-input{
+.textbox{
     display: flex;
     height: 200px;
     width: 260px;
     color: black;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     position: absolute;
     left: 5%;
+    background-color: white;
 }
+
 
 button{
     color: black;
@@ -60,7 +62,45 @@ button{
 }
 
 .leftbutton{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 50px;
     background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+
+.rightbutton{
+    height: 35px;
+    width: 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.remind-submit{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.reminder-input{
+    height: 20px;
+    width: 200px;
+    color: black;
+}
+
+
+.submit{
+    height: 35px;
+    width: 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+
+.score{
+    color: white;
 }
